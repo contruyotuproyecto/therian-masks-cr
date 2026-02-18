@@ -808,7 +808,7 @@
 <script>
   const WA_NUMBER = "50660072890";
   let productos = [];
-  let cart = [];
+  let cart = JSON.parse(localStorage.getItem('therian_cart') || '[]');
   let wishlist = new Set();
   let filtroActivo = "todos";
 
@@ -915,6 +915,8 @@
     else { cart.push({ idx, nombre:p.nombre, precio:p.precio, foto:p.foto, categoria:p.categoria, qty:1 }); }
     updateCartUI();
     showPopout(p.nombre);
+    localStorage.setItem('therian_cart', JSON.stringify(cart)); // ← agregá esta línea
+  const total = cart.reduce((s,i) => s + i.precio * i.qty, 0);
   }
 
   function removeFromCart(idx) { cart = cart.filter(i => i.idx !== idx); updateCartUI(); }
