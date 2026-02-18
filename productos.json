@@ -1,0 +1,56 @@
+[
+  {
+    "nombre": "Máscara de Lobo Lunar",
+    "descripcion": "Diseño lunar con detalles plateados. Orejas articuladas y acabado satinado.",
+    "precio": 25000,
+    "stock": 10,
+    "foto": "imagenes/lobo-lunar.jpg",
+    "categoria": "Lobo",
+    "destacado": true
+  },
+  {
+    "nombre": "Máscara de Zorro Otoñal",
+    "descripcion": "Tonos cálidos de naranja y café. Acabado mate premium.",
+    "precio": 22000,
+    "stock": 8,
+    "foto": "imagenes/zorro-otonal.jpg",
+    "categoria": "Zorro",
+    "destacado": false
+  },
+  {
+    "nombre": "Máscara de Dragón Místico",
+    "descripcion": "Escamas pintadas a mano, cuernos elaborados. Pieza de colección.",
+    "precio": 38000,
+    "stock": 3,
+    "foto": "imagenes/dragon-mistico.jpg",
+    "categoria": "Dragón",
+    "destacado": true
+  },
+  {
+    "nombre": "Máscara de Gato Nocturno",
+    "descripcion": "Elegante y minimalista. Orejas de tela, acabado negro satinado.",
+    "precio": 18000,
+    "stock": 15,
+    "foto": "imagenes/gato-nocturno.jpg",
+    "categoria": "Gato",
+    "destacado": false
+  },
+  {
+    "nombre": "Máscara de Ciervo Sagrado",
+    "descripcion": "Astas naturales, pintura blanca y dorada. Ideal para eventos espirituales.",
+    "precio": 32000,
+    "stock": 5,
+    "foto": "imagenes/ciervo-sagrado.jpg",
+    "categoria": "Ciervo",
+    "destacado": true
+  },
+  {
+    "nombre": "Máscara de Búho Sabio",
+    "descripcion": "Plumas decorativas y ojos expresivos. Gran detalle en pintado manual.",
+    "precio": 28000,
+    "stock": 7,
+    "foto": "imagenes/buho-sabio.jpg",
+    "categoria": "Búho",
+    "destacado": false
+  }
+]
