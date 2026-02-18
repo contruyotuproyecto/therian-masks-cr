@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -825,10 +826,12 @@
         { nombre:"Máscara de Gato Nocturno", descripcion:"Elegante y minimalista. Orejas de tela, acabado negro satinado.",              precio:18000, stock:0,  foto:"", categoria:"Gato",   destacado:false },
         { nombre:"Máscara de Ciervo Sagrado",descripcion:"Astas naturales, pintura blanca y dorada.",                                    precio:32000, stock:5,  foto:"", categoria:"Ciervo", destacado:true  },
         { nombre:"Máscara de Búho Sabio",    descripcion:"Plumas decorativas y ojos expresivos. Gran detalle en pintado manual.",        precio:28000, stock:7,  foto:"", categoria:"Búho",   destacado:false },
+        
       ];
     }
     buildCatFilter();
     renderProductos();
+    updateCartUI(); // ← agregá esta línea
   }
 
   const EMOJIS = {"Lobo":"🐺","Zorro":"🦊","Dragón":"🐉","Gato":"🐱","Ciervo":"🦌","Búho":"🦉"};
